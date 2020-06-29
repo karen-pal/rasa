@@ -1,25 +1,26 @@
-intents:
- - greet
- - default
- - goodbye
- - default
- - goodbye
+domain:
+  intents:
+   - greet
+   - default
+   - goodbye
+   - default
+   - goodbye
 
-slots:
-  cuisine:
-    type: text
-  location:
-    type: text
+  slots:
+    cuisine:
+      type: text
+    location:
+      type: text
 
-entities:
- - name
- - name
+  entities:
+   - name
+   - name
 
-responses:
-  utter_greet:
-    - text: hey there!
-  utter_goodbye:
-    - text: goodbye :(
-  utter_default:
-    - text: default message
+  responses:
+    utter_greet:
+      - text: hey there!
+    utter_goodbye:
+      - text: goodbye :(
+    utter_default:
+      - text: default message
 

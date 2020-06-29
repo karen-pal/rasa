@@ -1,12 +1,13 @@
-intents:
- - greet
- - default
- - goodbye
+domain:
+  intents:
+   - greet
+   - default
+   - goodbye
 
-responses:
-  utter_greet:
-    - hey there!
-  utter_goodbye:
-    - goodbye :(
-  utter_default:
-    - default message
+  responses:
+    utter_greet:
+      - hey there!
+    utter_goodbye:
+      - goodbye :(
+    utter_default:
+      - default message

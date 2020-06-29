@@ -1,23 +1,24 @@
-# all hashtags are comments :)
-intents:
- - inform
+domain:
+  # all hashtags are comments :)
+  intents:
+   - inform
 
-entities:
- - GPE
+  entities:
+   - GPE
 
-slots:
-  GPE_origin:
-    type: text
-  GPE_destination:
-    type: text
-  requested_slot:
-    type: unfeaturized
+  slots:
+    GPE_origin:
+      type: text
+    GPE_destination:
+      type: text
+    requested_slot:
+      type: unfeaturized
 
-responses:
-  utter_ask_GPE_origin:
-    - text: "where are you leaving from?"
-  utter_ask_GPE_destination:
-    - text: "where are you going to?"
+  responses:
+    utter_ask_GPE_origin:
+      - text: "where are you leaving from?"
+    utter_ask_GPE_destination:
+      - text: "where are you going to?"
 
-actions:
-  - action_search_travel
+  actions:
+    - action_search_travel

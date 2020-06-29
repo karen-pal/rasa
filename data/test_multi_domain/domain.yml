@@ -1,6 +1,7 @@
-intents:
-  - goodbye
+domain:
+  intents:
+    - goodbye
 
-responses:
-  utter_goodbye:
-    - text: "Bye"
+  responses:
+    utter_goodbye:
+      - text: "Bye"
